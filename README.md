@@ -8,7 +8,7 @@ El primero será sobre una protectora de animales, que contará con tres tipos d
     - Animales
 
 
-El segundo, tratará 
-    - 
-    - 
-    - 
+El segundo, tratará sobre un Hospital, ya que este puede contener otros tipos diferentes:
+    - Habitaciones
+    - Doctores
+    - Pacientes
