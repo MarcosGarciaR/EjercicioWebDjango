@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
-    'protectora_animales'
+    'protectora_animales',
 ]
 
 MIDDLEWARE = [

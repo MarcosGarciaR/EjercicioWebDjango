@@ -11,10 +11,10 @@ def animals_list(request):
 
 
 def protectoras_list(request):
-    colaboradores = Colaborador.objects.all()
-    return render(request, 'protectora_animales/colaboradores_list.html', {'colaboradores_mostrar' : colaboradores})
+    protectoras = Protectora.objects.all()
+    return render(request, 'protectora_animales/protectoras_list.html', {'protectoras_mostrar' : protectoras})
 
 
 def colaboradores_list(request):
-    protectoras = Protectora.objects.all()
-    return render(request, 'protectora_animales/protectoras_list.html', {'protectoras_mostrar' : protectoras})
+    colaboradores = Colaborador.objects.all()
+    return render(request, 'protectora_animales/colaboradores_list.html', {'colaboradores_mostrar' : colaboradores})
