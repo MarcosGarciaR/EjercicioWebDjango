@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protectoras</title>
+</head>
+
+<body>
+    <a href="/">Inicio</a>
+
+    {% for protectora in protectoras_mostrar %}
+    <article>
+        <h1>Nombre : {{protectora.nombre}}</h1>
+        <h3>Fecha de Creación : {{protectora.fecha_creacion}}</h3>
+        <p>Descripción : {{protectora.descripcion}}</p>
+        <hr>
+    </article>
+    {% endfor %}
+
+</body>
+
+</html>
