@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctores</title>
+</head>
+<body>
+    <a href="/">INICIO</a>
+
+    {% for doctor in mostrar_doctores %}
+    <article>
+        <h1>Nombre : {{doctor.nombre}}</h1>
+        <h3>Especialidad: {{doctor.especialidad}}</h3>
+        <p><time>Contratación : {{doctor.fecha_contratacion}}</time></p>
+        <hr>
+    </article>
+    {% endfor %}
+
+</body>
+</html>
