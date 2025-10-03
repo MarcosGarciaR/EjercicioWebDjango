@@ -6,7 +6,7 @@
     "configurations": [
 
         {
-            "name": "Python: Django",
+            "name": "Python: Django - Proyecto Uno Protectora",
             "type": "debugpy",
             "request": "launch",
             "args": [
@@ -15,7 +15,19 @@
             "django": true,
             "justMyCode": true,
             "autoStartBrowser": false,
-            "program": "${workspaceFolder}\\proyectouno\\manage.py"
+            "program": "${workspaceFolder}/proyectouno/manage.py",
+        },
+        {
+            "name": "Python: Django - Proyecto Dos Hospital",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+            "justMyCode": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/proyectodos/manage.py"
         }
     ]
 }
